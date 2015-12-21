@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63E2B33C0A199AD3D62A869 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B00B07CF7C31E14A9C1C29C /* libPods.a */; };
+		EE51A04A1C27DF570081B015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A0491C27DF570081B015 /* main.m */; };
+		EE51A04D1C27DF570081B015 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A04C1C27DF570081B015 /* AppDelegate.m */; };
+		EE51A0501C27DF570081B015 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A04F1C27DF570081B015 /* ViewController.m */; };
+		EE51A0531C27DF570081B015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE51A0511C27DF570081B015 /* Main.storyboard */; };
+		EE51A0551C27DF570081B015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE51A0541C27DF570081B015 /* Assets.xcassets */; };
+		EE51A0581C27DF570081B015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE51A0561C27DF570081B015 /* LaunchScreen.storyboard */; };
+		EE51A0631C27DF570081B015 /* LSTPhotoLibPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A0621C27DF570081B015 /* LSTPhotoLibPhotoTests.m */; };
+		EE51A06E1C27DF570081B015 /* LSTPhotoLibPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A06D1C27DF570081B015 /* LSTPhotoLibPhotoUITests.m */; };
+		EE51A0821C27E6030081B015 /* LSTPhotoLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A0811C27E6030081B015 /* LSTPhotoLibraryController.m */; };
+		EE51A0851C27E6170081B015 /* LSTPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A0841C27E6170081B015 /* LSTPhotoCell.m */; };
+		EE51A0891C27E7B70081B015 /* LstPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A0881C27E7B70081B015 /* LstPhotoImageView.m */; };
+		EE51A08F1C27EE040081B015 /* ZXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A08C1C27EE040081B015 /* ZXImageView.m */; };
+		EE51A0901C27EE040081B015 /* ZXImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51A08E1C27EE040081B015 /* ZXImageViewController.m */; };
+		EE51A0961C27F49B0081B015 /* 4_btn_add_pictures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE51A0951C27F49B0081B015 /* 4_btn_add_pictures@2x.png */; };
+		EE51A0991C27F4AB0081B015 /* LST7_icon_selected_N.png in Resources */ = {isa = PBXBuildFile; fileRef = EE51A0971C27F4AB0081B015 /* LST7_icon_selected_N.png */; };
+		EE51A09A1C27F4AB0081B015 /* LST7_icon_selected_S.png in Resources */ = {isa = PBXBuildFile; fileRef = EE51A0981C27F4AB0081B015 /* LST7_icon_selected_S.png */; };
+		EE51A09C1C2800070081B015 /* Lst9_icon_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE51A09B1C2800070081B015 /* Lst9_icon_delete@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE51A05F1C27DF570081B015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE51A03D1C27DF570081B015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE51A0441C27DF570081B015;
+			remoteInfo = LSTPhotoLibPhoto;
+		};
+		EE51A06A1C27DF570081B015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE51A03D1C27DF570081B015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE51A0441C27DF570081B015;
+			remoteInfo = LSTPhotoLibPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14139307DBE753CD704AFCE0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6B00B07CF7C31E14A9C1C29C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7264F45E400068ED7CD5B851 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EE51A0451C27DF570081B015 /* LSTPhotoLibPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTPhotoLibPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE51A0491C27DF570081B015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE51A04B1C27DF570081B015 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE51A04C1C27DF570081B015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE51A04E1C27DF570081B015 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE51A04F1C27DF570081B015 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE51A0521C27DF570081B015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE51A0541C27DF570081B015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE51A0571C27DF570081B015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE51A0591C27DF570081B015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE51A05E1C27DF570081B015 /* LSTPhotoLibPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTPhotoLibPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE51A0621C27DF570081B015 /* LSTPhotoLibPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTPhotoLibPhotoTests.m; sourceTree = "<group>"; };
+		EE51A0641C27DF570081B015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE51A0691C27DF570081B015 /* LSTPhotoLibPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTPhotoLibPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE51A06D1C27DF570081B015 /* LSTPhotoLibPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTPhotoLibPhotoUITests.m; sourceTree = "<group>"; };
+		EE51A06F1C27DF570081B015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE51A0801C27E6030081B015 /* LSTPhotoLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTPhotoLibraryController.h; sourceTree = "<group>"; };
+		EE51A0811C27E6030081B015 /* LSTPhotoLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTPhotoLibraryController.m; sourceTree = "<group>"; };
+		EE51A0831C27E6170081B015 /* LSTPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTPhotoCell.h; sourceTree = "<group>"; };
+		EE51A0841C27E6170081B015 /* LSTPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTPhotoCell.m; sourceTree = "<group>"; };
+		EE51A0871C27E7B70081B015 /* LstPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LstPhotoImageView.h; sourceTree = "<group>"; };
+		EE51A0881C27E7B70081B015 /* LstPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LstPhotoImageView.m; sourceTree = "<group>"; };
+		EE51A08B1C27EE040081B015 /* ZXImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageView.h; sourceTree = "<group>"; };
+		EE51A08C1C27EE040081B015 /* ZXImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageView.m; sourceTree = "<group>"; };
+		EE51A08D1C27EE040081B015 /* ZXImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageViewController.h; sourceTree = "<group>"; };
+		EE51A08E1C27EE040081B015 /* ZXImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageViewController.m; sourceTree = "<group>"; };
+		EE51A0951C27F49B0081B015 /* 4_btn_add_pictures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4_btn_add_pictures@2x.png"; sourceTree = "<group>"; };
+		EE51A0971C27F4AB0081B015 /* LST7_icon_selected_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LST7_icon_selected_N.png; sourceTree = "<group>"; };
+		EE51A0981C27F4AB0081B015 /* LST7_icon_selected_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LST7_icon_selected_S.png; sourceTree = "<group>"; };
+		EE51A09B1C2800070081B015 /* Lst9_icon_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lst9_icon_delete@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE51A0421C27DF570081B015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63E2B33C0A199AD3D62A869 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE51A05B1C27DF570081B015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE51A0661C27DF570081B015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF0586250020BE5E06D9A47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7264F45E400068ED7CD5B851 /* Pods.debug.xcconfig */,
+				14139307DBE753CD704AFCE0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B943E6E7B21AD3FBF396CC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B00B07CF7C31E14A9C1C29C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE51A03C1C27DF570081B015 = {
+			isa = PBXGroup;
+			children = (
+				EE51A0471C27DF570081B015 /* LSTPhotoLibPhoto */,
+				EE51A0611C27DF570081B015 /* LSTPhotoLibPhotoTests */,
+				EE51A06C1C27DF570081B015 /* LSTPhotoLibPhotoUITests */,
+				EE51A0461C27DF570081B015 /* Products */,
+				0AF0586250020BE5E06D9A47 /* Pods */,
+				9B943E6E7B21AD3FBF396CC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE51A0461C27DF570081B015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A0451C27DF570081B015 /* LSTPhotoLibPhoto.app */,
+				EE51A05E1C27DF570081B015 /* LSTPhotoLibPhotoTests.xctest */,
+				EE51A0691C27DF570081B015 /* LSTPhotoLibPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE51A0471C27DF570081B015 /* LSTPhotoLibPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A07B1C27DF850081B015 /* LSTPhotoLibSelect */,
+				EE51A04B1C27DF570081B015 /* AppDelegate.h */,
+				EE51A04C1C27DF570081B015 /* AppDelegate.m */,
+				EE51A04E1C27DF570081B015 /* ViewController.h */,
+				EE51A04F1C27DF570081B015 /* ViewController.m */,
+				EE51A0511C27DF570081B015 /* Main.storyboard */,
+				EE51A0541C27DF570081B015 /* Assets.xcassets */,
+				EE51A0561C27DF570081B015 /* LaunchScreen.storyboard */,
+				EE51A0591C27DF570081B015 /* Info.plist */,
+				EE51A0481C27DF570081B015 /* Supporting Files */,
+			);
+			path = LSTPhotoLibPhoto;
+			sourceTree = "<group>";
+		};
+		EE51A0481C27DF570081B015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A0491C27DF570081B015 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE51A0611C27DF570081B015 /* LSTPhotoLibPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A0621C27DF570081B015 /* LSTPhotoLibPhotoTests.m */,
+				EE51A0641C27DF570081B015 /* Info.plist */,
+			);
+			path = LSTPhotoLibPhotoTests;
+			sourceTree = "<group>";
+		};
+		EE51A06C1C27DF570081B015 /* LSTPhotoLibPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A06D1C27DF570081B015 /* LSTPhotoLibPhotoUITests.m */,
+				EE51A06F1C27DF570081B015 /* Info.plist */,
+			);
+			path = LSTPhotoLibPhotoUITests;
+			sourceTree = "<group>";
+		};
+		EE51A07B1C27DF850081B015 /* LSTPhotoLibSelect */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A0861C27E74F0081B015 /* category */,
+				EE51A07C1C27DF850081B015 /* Controller */,
+				EE51A07D1C27DF850081B015 /* Image */,
+				EE51A07E1C27DF850081B015 /* Model */,
+				EE51A07F1C27DF850081B015 /* View */,
+			);
+			path = LSTPhotoLibSelect;
+			sourceTree = "<group>";
+		};
+		EE51A07C1C27DF850081B015 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A0801C27E6030081B015 /* LSTPhotoLibraryController.h */,
+				EE51A0811C27E6030081B015 /* LSTPhotoLibraryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE51A07D1C27DF850081B015 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A09B1C2800070081B015 /* Lst9_icon_delete@2x.png */,
+				EE51A0951C27F49B0081B015 /* 4_btn_add_pictures@2x.png */,
+				EE51A0971C27F4AB0081B015 /* LST7_icon_selected_N.png */,
+				EE51A0981C27F4AB0081B015 /* LST7_icon_selected_S.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EE51A07E1C27DF850081B015 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE51A07F1C27DF850081B015 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A0871C27E7B70081B015 /* LstPhotoImageView.h */,
+				EE51A0881C27E7B70081B015 /* LstPhotoImageView.m */,
+				EE51A0831C27E6170081B015 /* LSTPhotoCell.h */,
+				EE51A0841C27E6170081B015 /* LSTPhotoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE51A0861C27E74F0081B015 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A08A1C27EE040081B015 /* ZXImageView */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		EE51A08A1C27EE040081B015 /* ZXImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EE51A08B1C27EE040081B015 /* ZXImageView.h */,
+				EE51A08C1C27EE040081B015 /* ZXImageView.m */,
+				EE51A08D1C27EE040081B015 /* ZXImageViewController.h */,
+				EE51A08E1C27EE040081B015 /* ZXImageViewController.m */,
+			);
+			path = ZXImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE51A0441C27DF570081B015 /* LSTPhotoLibPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE51A0721C27DF570081B015 /* Build configuration list for PBXNativeTarget "LSTPhotoLibPhoto" */;
+			buildPhases = (
+				3ACA1D157D5510D9EBC217DE /* Check Pods Manifest.lock */,
+				EE51A0411C27DF570081B015 /* Sources */,
+				EE51A0421C27DF570081B015 /* Frameworks */,
+				EE51A0431C27DF570081B015 /* Resources */,
+				1ACDC94168D575787AFA1DB8 /* Embed Pods Frameworks */,
+				4A444D4B9716F9CF3D58BEB8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSTPhotoLibPhoto;
+			productName = LSTPhotoLibPhoto;
+			productReference = EE51A0451C27DF570081B015 /* LSTPhotoLibPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE51A05D1C27DF570081B015 /* LSTPhotoLibPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE51A0751C27DF570081B015 /* Build configuration list for PBXNativeTarget "LSTPhotoLibPhotoTests" */;
+			buildPhases = (
+				EE51A05A1C27DF570081B015 /* Sources */,
+				EE51A05B1C27DF570081B015 /* Frameworks */,
+				EE51A05C1C27DF570081B015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE51A0601C27DF570081B015 /* PBXTargetDependency */,
+			);
+			name = LSTPhotoLibPhotoTests;
+			productName = LSTPhotoLibPhotoTests;
+			productReference = EE51A05E1C27DF570081B015 /* LSTPhotoLibPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE51A0681C27DF570081B015 /* LSTPhotoLibPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE51A0781C27DF570081B015 /* Build configuration list for PBXNativeTarget "LSTPhotoLibPhotoUITests" */;
+			buildPhases = (
+				EE51A0651C27DF570081B015 /* Sources */,
+				EE51A0661C27DF570081B015 /* Frameworks */,
+				EE51A0671C27DF570081B015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE51A06B1C27DF570081B015 /* PBXTargetDependency */,
+			);
+			name = LSTPhotoLibPhotoUITests;
+			productName = LSTPhotoLibPhotoUITests;
+			productReference = EE51A0691C27DF570081B015 /* LSTPhotoLibPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE51A03D1C27DF570081B015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LST;
+				TargetAttributes = {
+					EE51A0441C27DF570081B015 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EE51A05D1C27DF570081B015 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EE51A0441C27DF570081B015;
+					};
+					EE51A0681C27DF570081B015 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EE51A0441C27DF570081B015;
+					};
+				};
+			};
+			buildConfigurationList = EE51A0401C27DF570081B015 /* Build configuration list for PBXProject "LSTPhotoLibPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE51A03C1C27DF570081B015;
+			productRefGroup = EE51A0461C27DF570081B015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE51A0441C27DF570081B015 /* LSTPhotoLibPhoto */,
+				EE51A05D1C27DF570081B015 /* LSTPhotoLibPhotoTests */,
+				EE51A0681C27DF570081B015 /* LSTPhotoLibPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE51A0431C27DF570081B015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE51A0581C27DF570081B015 /* LaunchScreen.storyboard in Resources */,
+				EE51A0551C27DF570081B015 /* Assets.xcassets in Resources */,
+				EE51A0991C27F4AB0081B015 /* LST7_icon_selected_N.png in Resources */,
+				EE51A0961C27F49B0081B015 /* 4_btn_add_pictures@2x.png in Resources */,
+				EE51A0531C27DF570081B015 /* Main.storyboard in Resources */,
+				EE51A09C1C2800070081B015 /* Lst9_icon_delete@2x.png in Resources */,
+				EE51A09A1C27F4AB0081B015 /* LST7_icon_selected_S.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE51A05C1C27DF570081B015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE51A0671C27DF570081B015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ACDC94168D575787AFA1DB8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACA1D157D5510D9EBC217DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A444D4B9716F9CF3D58BEB8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE51A0411C27DF570081B015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE51A0821C27E6030081B015 /* LSTPhotoLibraryController.m in Sources */,
+				EE51A0501C27DF570081B015 /* ViewController.m in Sources */,
+				EE51A04D1C27DF570081B015 /* AppDelegate.m in Sources */,
+				EE51A0851C27E6170081B015 /* LSTPhotoCell.m in Sources */,
+				EE51A04A1C27DF570081B015 /* main.m in Sources */,
+				EE51A08F1C27EE040081B015 /* ZXImageView.m in Sources */,
+				EE51A0901C27EE040081B015 /* ZXImageViewController.m in Sources */,
+				EE51A0891C27E7B70081B015 /* LstPhotoImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE51A05A1C27DF570081B015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE51A0631C27DF570081B015 /* LSTPhotoLibPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE51A0651C27DF570081B015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE51A06E1C27DF570081B015 /* LSTPhotoLibPhotoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE51A0601C27DF570081B015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE51A0441C27DF570081B015 /* LSTPhotoLibPhoto */;
+			targetProxy = EE51A05F1C27DF570081B015 /* PBXContainerItemProxy */;
+		};
+		EE51A06B1C27DF570081B015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE51A0441C27DF570081B015 /* LSTPhotoLibPhoto */;
+			targetProxy = EE51A06A1C27DF570081B015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE51A0511C27DF570081B015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE51A0521C27DF570081B015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE51A0561C27DF570081B015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE51A0571C27DF570081B015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE51A0701C27DF570081B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE51A0711C27DF570081B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE51A0731C27DF570081B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7264F45E400068ED7CD5B851 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LSTPhotoLibPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linxun.LinLi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE51A0741C27DF570081B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14139307DBE753CD704AFCE0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LSTPhotoLibPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linxun.LinLi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE51A0761C27DF570081B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSTPhotoLibPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LSTPhotoLibPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSTPhotoLibPhoto.app/LSTPhotoLibPhoto";
+			};
+			name = Debug;
+		};
+		EE51A0771C27DF570081B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSTPhotoLibPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LSTPhotoLibPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSTPhotoLibPhoto.app/LSTPhotoLibPhoto";
+			};
+			name = Release;
+		};
+		EE51A0791C27DF570081B015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSTPhotoLibPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LSTPhotoLibPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSTPhotoLibPhoto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE51A07A1C27DF570081B015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSTPhotoLibPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LSTPhotoLibPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSTPhotoLibPhoto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE51A0401C27DF570081B015 /* Build configuration list for PBXProject "LSTPhotoLibPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE51A0701C27DF570081B015 /* Debug */,
+				EE51A0711C27DF570081B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE51A0721C27DF570081B015 /* Build configuration list for PBXNativeTarget "LSTPhotoLibPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE51A0731C27DF570081B015 /* Debug */,
+				EE51A0741C27DF570081B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE51A0751C27DF570081B015 /* Build configuration list for PBXNativeTarget "LSTPhotoLibPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE51A0761C27DF570081B015 /* Debug */,
+				EE51A0771C27DF570081B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE51A0781C27DF570081B015 /* Build configuration list for PBXNativeTarget "LSTPhotoLibPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE51A0791C27DF570081B015 /* Debug */,
+				EE51A07A1C27DF570081B015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE51A03D1C27DF570081B015 /* Project object */;
+}
